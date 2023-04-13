@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Day14_CSV_File_JSON_File
 {
+    [Serializable]
     public class AddressBook
     {
         public string FirstName { get; set; }
